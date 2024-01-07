@@ -23,3 +23,6 @@ C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\Diggy
 C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\obj\Debug\net6.0\DiggyDungeonProject.pdb
 C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\obj\Debug\net6.0\DiggyDungeonProject.genruntimeconfig.cache
 C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\obj\Debug\net6.0\ref\DiggyDungeonProject.dll
+C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\obj\Debug\net6.0\DiggyDungeonProject.sourcelink.json
+C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\bin\Debug\net6.0\Content\IDidThis.xnb
+C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\bin\Debug\net6.0\Content\RubikDoodleShadow.xnb
