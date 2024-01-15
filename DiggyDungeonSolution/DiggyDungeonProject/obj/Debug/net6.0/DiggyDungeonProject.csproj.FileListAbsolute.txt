@@ -26,3 +26,6 @@ C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\Diggy
 C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\obj\Debug\net6.0\DiggyDungeonProject.sourcelink.json
 C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\bin\Debug\net6.0\Content\IDidThis.xnb
 C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\bin\Debug\net6.0\Content\RubikDoodleShadow.xnb
+C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\bin\Debug\net6.0\Content\fontRubik.xnb
+C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\bin\Debug\net6.0\Content\fontThis.xnb
+C:\Users\emdas\Dropbox\Project Materials\diggydungeon\DiggyDungeonSolution\DiggyDungeonProject\bin\Debug\net6.0\Content\img\cursors\cursorShovelWhite.xnb

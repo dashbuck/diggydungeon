@@ -5,10 +5,12 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/emdas/Dropbox/Project Materials/diggydungeon/DiggyDungeonSolution/DiggyDungeonProject/Content/IDidThis.spritefont</File>
+    <File>C:/Users/emdas/Dropbox/Project Materials/diggydungeon/DiggyDungeonSolution/DiggyDungeonProject/Content/img/cursors/cursorShovelWhite.png</File>
     <File>C:/Users/emdas/Dropbox/Project Materials/diggydungeon/DiggyDungeonSolution/DiggyDungeonProject/Content/RubikDoodleShadow.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File>fontThis.spritefont</File>
     <File xsi:nil="true" />
-    <File xsi:nil="true" />
+    <File>fontRubik.spritefont</File>
   </DestFiles>
 </SourceFileCollection>

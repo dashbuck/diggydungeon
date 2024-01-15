@@ -8,8 +8,12 @@ namespace DiggyDungeonProject
 {
     public class Game1 : Game
     {
+        Color colorCave;
+        
         SpriteFont fontRubik;
-        SpriteFont fontDidthis;
+        SpriteFont fontThis;
+
+        Texture2D cursorShovelWhite;
 
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
@@ -23,7 +27,7 @@ namespace DiggyDungeonProject
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            // Set window size
             _graphics.PreferredBackBufferWidth = 1280;
             _graphics.PreferredBackBufferHeight = 720;
             _graphics.ApplyChanges();
@@ -34,8 +38,17 @@ namespace DiggyDungeonProject
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            fontRubik = Content.Load<SpriteFont>("RubikDoodleShadow");
-            // TODO: use this.Content to load your game content here
+
+            // Set up colors
+            colorCave = new Color(33, 2, 3, 1);
+
+            // Set up fonts
+            fontRubik = Content.Load<SpriteFont>("fontRubik");
+            fontThis = Content.Load<SpriteFont>("fontThis");
+
+            // Set up cursor
+            cursorShovelWhite = Content.Load<Texture2D>("img/cursors/cursorShovelWhite");
+            Mouse.SetCursor(MouseCursor.FromTexture2D(cursorShovelWhite, 0, 0));
         }
 
         protected override void Update(GameTime gameTime)
@@ -59,7 +72,7 @@ namespace DiggyDungeonProject
             int posCenterX = windowWidth / 2; //I'd use a float for accuracy but I think V2s only accept ints
             int posCenterY = windowHeight / 2;
 
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(colorCave);
 
             
             _spriteBatch.Begin();
@@ -73,7 +86,7 @@ namespace DiggyDungeonProject
                 fontRubik, //SpriteFont spriteFont
                 titleText, //StringBuilder text
                 new Vector2(posCenterX, titleTextMidPoint.Y / 2), //Vector2 position - at top but not outside frame
-                Color.Black, //Color color
+                Color.White, //Color color
                 0, //float rotation
                 titleTextMidPoint, //Vector2 origin
                 0.6f, //Vector2 scale
@@ -82,6 +95,7 @@ namespace DiggyDungeonProject
                 );
 
             //== Subtitle ==
+
             string titleTextSub = "Concentration";
             Vector2 titleTextSubMeas = fontRubik.MeasureString(titleTextSub);
             Vector2 titleTextSubMidPoint = titleTextSubMeas / 2;
@@ -89,13 +103,17 @@ namespace DiggyDungeonProject
                 fontRubik, //SpriteFont spriteFont
                 titleTextSub, //StringBuilder text
                 new Vector2(posCenterX, posTopY + titleTextMeas.Y ), //Vector2 position - below the title text.
-                Color.Black, //Color color
+                Color.White, //Color color
                 0, //float rotation
                 titleTextMidPoint, //Vector2 origin
                 1.15f, //Vector2 scale 
                 SpriteEffects.None, //SpriteEffects effects
                 0 //float layerDepth
                 );
+
+            //== Start Button ==
+
+
 
 
             _spriteBatch.End();
